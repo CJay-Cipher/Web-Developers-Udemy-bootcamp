@@ -1,5 +1,7 @@
 # Task 2: Building a Responsive Website landing page
 
+![Responsive Website Design](design/desktop-design.jpg)
+
 ## Overview
 In this task, we will be building a responsive website using HTML and CSS. The website will showcase our understanding of web development fundamentals and design principles.
 
@@ -7,7 +9,6 @@ In this task, we will be building a responsive website using HTML and CSS. The w
 The necessary files for this task are located in the following folders:
 - design
 - images
-
 
 # Creating a New Branch from the main branch
 ## Steps:
