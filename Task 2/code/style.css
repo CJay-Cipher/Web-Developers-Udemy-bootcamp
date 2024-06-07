@@ -1,0 +1,75 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(../images/);
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    height: 4rem;
+}
+
+.nav_links {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav_links > li {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.conteiner {
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.buttons {
+    min-width: 350px;
+   margin-left: 30%;
+   display: flex;
+   gap: 1rem;
+}
+
+.button{
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.signup, .start{
+    background-color: rgb(51, 233, 209);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.start {
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 200px;
+}
+
+.intro {
+
+    position: absolute;
+    top: 35%;
+    margin-left: 10%;
+
+}
+
+.intro > h1 {
+    font-size: 5rem;
+}
+
+.intro > p {
+    font-size: 3rem;
+}
