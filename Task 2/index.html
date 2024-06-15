@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Link Shortner</title>
         <link rel="stylesheet" href="style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
             <nav id="nav-bar">
-                <div id="logo"><img src="images/logo.svg" alt="Main Logo" /></div>
+                <div id="logo"><img src="logo/main-logo.svg" alt="Main Logo" /></div>
                 <div class="nav-text">Features</div>
                 <div class="nav-text">Pricing</div>
                 <div class="nav-text">Resources</div>
@@ -26,6 +28,9 @@
                         Build you brand's recognition and get detailed insights on how you
                         links are performing.
                     </p>
+                    <div>
+                        <button class="get-started-button">Get Started</button>
+                    </div>
                 </div>
                 <div id="top-image">
                     <img src="images/illustration-working.svg" alt="Working Image">
@@ -54,42 +59,88 @@
             </div>
 
             <div id="box-body-section">
-                <section class="box box-one">
-                    <img src="images/icon-brand-recognition.svg" alt="Recognition">
-                    <h3>Brand Recognition</h3>
-                    <p>
-                        Boost your brancd recognition with each click. Generic links don,t
-                        mean a thing. Branded links help insti confidence in your content
-                    </p>
-                    
-                </section>
-                <section class="box box-two">
-                    </p><img src="images/icon-detailed-records.svg" alt="Recognition">
-                    <h3>Detailed Records</h3>
-                    <p>
-                        Gain insights into who is clicking your links. Knowing when and
-                        where people engage with your content helps inform better decisions
-                    </p>
+                <div class="body-section-1"></div>
+                <div class="body-section-2">
+                    <section class="box box-one">
+                        <div>
+                            <img src="images/icon-brand-recognition.svg" alt="Recognition">
+                        </div>
+                        <h3>Brand Recognition</h3>
+                        <p>
+                            Boost your brancd recognition with each click. Generic links don't
+                            mean a thing. Branded links help insti confidence in your content
+                        </p>
+                    </section>
 
-                </section>
-                <section class="box box-three">
-                    </p><img src="images/icon-fully-customizable.svg" alt="Recognition">
-                    <h3>Fully Customizable</h3>
-                    <p>
-                        Improve brand awareness and content discoverability throug
-                        eustomizable links, supercharging audience engagement.
-                    </p>
-                    
+                    <section class="box box-two">
+                        <div>
+                        </p><img src="images/icon-detailed-records.svg" alt="Recognition">
+                        </div>
+                        <h3>Detailed Records</h3>
+                        <p>
+                            Gain insights into who is clicking your links. Knowing when and
+                            where people engage with your content helps inform better decisions
+                        </p>
+                    </section>
 
-                </section>
+                    <section class="box box-three">
+                        <div>
+                        </p><img src="images/icon-fully-customizable.svg" alt="Recognition">
+                        </div>
+                        <h3>Fully Customizable</h3>
+                        <p>
+                            Improve brand awareness and content discoverability throug
+                            eustomizable links, supercharging audience engagement.
+                        </p>
+                    </section>
+                </div>
+                
             </div>
 
-            <div id="lower-body">
+            <div class="lower-body">
                 <h2>Boost your links today</h2>
-                <button>Sign Up</button>
+                <button class="get-started-button">Get Started</button>
             </div>
 
-            <footer>sample footer</footer>
+            <footer>
+                <h2 class="shortly-white">Shortly</h2>
+                <div class="footer-table">
+                    <ul>
+                        <li class="column-title">Features</li>
+                        <li>Link Shortening</li>
+                        <li>Branded Links</li>
+                        <li>Analytics</li>
+                    </ul>
+                    <ul>
+                        <li class="column-title">Features</li>
+                        <li>Link Shortening</li>
+                        <li>Branded Links</li>
+                        <li>Support</li>
+                    </ul>
+                    <ul>
+                        <li class="column-title">Company</li>
+                        <li>About</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                
+                <ul class="logo-list">
+                    <li>
+                        <img src="logo/facebook.svg" alt="Facebook Logo">
+                    </li>
+                    <li>
+                        <img src="logo/twitter.svg" alt="Twitter Logo">
+                    </li>
+                    <li>
+                        <img src="logo/pinterest.svg" alt="Pinterest Logo">
+                    </li>
+                    <li>
+                        <img src="logo/instagram.svg" alt="Instagram Logo">
+                    </li>
+                </ul>
+            </footer>
         </div>
     </body>
 </html>
