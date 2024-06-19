@@ -1,0 +1,121 @@
+
+
+#sign{
+    border-radius: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#started{
+    border-radius: 20px;
+    color: white;
+}
+.image{
+
+}
+.container.jumb{
+    background-image: url(./bg-shorten-desktop.svg);
+}
+button{
+    height: 50px;
+}
+#link{
+    text-align: left;
+    border-radius: 10px;
+}
+#it{
+    text-align: center;
+    border-radius: 10px; 
+    color: aliceblue;
+}
+body{
+    background: linear-gradient(to bottom, white 0%, white 39%, aliceblue 39%, aliceblue 100% );
+}
+.brand{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.brandrec{
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+    text-align: left;  
+}
+.container.icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.brandrec.two{
+    margin-top: 50px;
+}
+.brandrec.three{
+    margin-top: 100px;
+}
+.bg-boost{
+    background: url(./bg-boost-desktop.svg);
+}
+.boot{
+    text-align: center;
+    color: white;
+}
+footer{
+    color: white;
+}
+
+@media(max-width: 1250px ){
+    .button{
+        visibility: hidden;
+    }
+    .text-end{
+        visibility: hidden;
+    }
+    .container{
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer{
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+        text-align: center;
+    }
+    .icons{
+        font-size: 30px;
+        margin-right: 10rem;    
+    }
+    .more-than{
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .moren{
+       font-weight: 2rem;
+       margin-bottom: 2rem;
+    }
+    .get{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background: linear-gradient(to bottom, white 0%, white 33%, rgba(0, 0, 255, 0.206) 33%, rgba(0, 0, 255, 0.174) 100% );
+    } 
+    .image-work{
+        margin-bottom: 50px;
+    }   
+    .footer .shortly{
+        margin-right: 2rem;
+        margin-bottom: 20px;
+    }
+    .first-shortly{
+        margin-left: 50px;
+    }
+
+}
